@@ -4,5 +4,5 @@ import numpy as np
 
 st.write("# Dashboard - Movies List")
 
-data = pd.read_csv("../movies.csv")
+data = pd.read_csv("./movies.csv")
 st.write(data)
